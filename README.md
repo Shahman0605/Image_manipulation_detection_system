@@ -28,7 +28,7 @@ Unfortunately, we could only report the results for the model we tested on the d
 - True Negative Rate (Copy-moved): 78% accuracy
 - False Positive Rate (Spliced): 22% accuracy
 - False Negative Rate (Spliced): 57% accuracy
-- 
+  
 Confusion Matrix:
 ```
                  | Predicted Authentic | Predicted Copy-moved | Predicted Spliced |
@@ -44,4 +44,6 @@ The joblib file for the SVM classifier used in this project is not included in t
 
 
 ## Conclusion
-ImageForgeryDetect presents a reliable solution for detecting copy-move and splicing forgeries in images. Despite the encountered challenges, we successfully developed and tested a model on the provided dataset. Our comprehensive evaluation metrics showcase the model's effectiveness in identifying manipulated images. Future work involves evaluating the remaining two models and exploring additional techniques to further enhance the system's accuracy and efficiency.
+According to the provided metrics, ImageForgeryDetect demonstrates a reliable and effective solution for detecting copy-move and splicing image forgeries. The model achieved an overall accuracy of 92% on the test dataset. These impressive evaluation metrics validate the effectiveness of our developed model in accurately identifying manipulated images.
+
+While we encountered challenges during the project, we successfully overcame them and achieved excellent results. Moving forward, our future work will evaluate the remaining two models pre-trained on the CASIA2.0_revised dataset. Additionally, we will explore additional techniques and methodologies to enhance the system's accuracy and efficiency further, ensuring its continuous improvement.
