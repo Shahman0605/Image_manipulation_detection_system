@@ -37,5 +37,8 @@ Copy-moved   |          4          |         125          |        16         |
 Spliced      |          9          |          15          |        114        |
 ```
 
+The joblib file for the SVM classifier used in this project is not included in the repository due to its large size. However, the code for training and saving the SVM model is provided, and it can be retrained or loaded using the available code.
+
+
 ## Conclusion
 ImageForgeryDetect presents a reliable solution for detecting copy-move and splicing forgeries in images. Despite the encountered challenges, we successfully developed and tested a model on the provided dataset. Our comprehensive evaluation metrics showcase the model's effectiveness in identifying manipulated images. Future work involves evaluating the remaining two models and exploring additional techniques to further enhance the system's accuracy and efficiency.
