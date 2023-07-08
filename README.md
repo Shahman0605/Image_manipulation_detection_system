@@ -25,7 +25,7 @@ Unfortunately, we could only report the results for the model we tested on the d
 
 - Authentic: 92% accuracy
 - True Positive Rate: 43%
-- True Negative Rate: 78$
+- True Negative Rate: 78%
 - False Positive Rate: 22%
 - False Negative Rate: 57%
 
