@@ -27,7 +27,7 @@ Unfortunately, we could only report the results for the model we tested on the d
 
 - Authentic: 92% accuracy
 - Copy-moved: 84% accuracy
-- Spliced: 88% accuracy
+- Spliced: 70% accuracy
 
 Confusion Matrix:
 ```
