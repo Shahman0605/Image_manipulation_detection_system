@@ -31,10 +31,12 @@ Unfortunately, we could only report the results for the model we tested on the d
 
 Confusion Matrix:
 ```
-             | Predicted Authentic | Predicted Copy-moved | Predicted Spliced |
-Authentic    |         102         |          8           |        10         |
-Copy-moved   |          4          |         125          |        16         |
-Spliced      |          9          |          15          |        114        |
+   |                   | Predicted Authentic | Predicted Copy-moved | Predicted Spliced |
+|-------------------|---------------------|-------------------------|-------------------|
+| Authentic        |        92%               |            8%                   |        10%            |
+| Copy-moved   |          4%                 |          43%                    |        16%            |
+| Spliced            |          9%                 |           15%                    |        78%           |
+
 ```
 
 The joblib file for the SVM classifier used in this project is not included in the repository due to its large size. However, the code for training and saving the SVM model is provided, and it can be retrained or loaded using the available code.
