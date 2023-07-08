@@ -12,9 +12,7 @@ We adopted a multi-model approach to tackle the problem. Although we initially p
 The chosen model was a deep learning-based architecture that leverages convolutional neural networks (CNNs) and transfer learning. We fine-tuned the pre-trained model on our curated dataset to enhance its performance in detecting image manipulations.
 
 ## Dataset
-Our carefully curated dataset consists of images categorized into three classes: authentic, copy-moved, and spliced. The dataset is divided into traindev and test sets. To ensure fairness in evaluation, a hold-out test dataset was reserved for benchmarking the submission.
-
-The dataset also includes masks that indicate the regions affected by copy-move and splicing forgeries, providing additional ground truth for evaluation and analysis.
+To ensure comprehensive evaluation, we have meticulously curated a dataset comprising three classes: authentic, copy-moved, and spliced images. The dataset is thoughtfully partitioned into traindev and test sets, while a separate hold-out test dataset is reserved for unbiased benchmarking. Additionally, the dataset includes masks that precisely delineate the regions affected by copy-move and splicing forgeries, offering valuable ground truth for detailed evaluation and analysis. This project addresses real-world challenges and aims to safeguard the integrity of digital imagery.
 
 ## Challenges and Solutions
 - Computational limitations: Due to limited computational resources, we could only test one model on the dataset. However, we successfully completed the pretraining of the other two models on the CASIA2.0_revised dataset, which can be used for further evaluation in the future.
