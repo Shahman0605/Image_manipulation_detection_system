@@ -50,11 +50,13 @@ The joblib file for the SVM classifier used in this project is not included in t
 - Python 3.7
 - PyTorch 1.0+
 - CUDA 10.0+
+
 ./unet/unet-parts.py': it includes detailed implementations of 'U-Net', 'RU-Net' and 'RRU-Net'
 'train.py': you can use it to train your model
 using $python train.py$
 'predict.py': you can use it to test 
 But change the image, mask and log directory on the local machine.
+
 This model is forked from:
 @inproceedings{bi2019rru,
   title={RRU-Net: The Ringed Residual U-Net for Image Splicing Forgery Detection},
@@ -63,6 +65,7 @@ This model is forked from:
   pages={0--0},
   year={2019}
 }
+
 All other files are in an .ipynb format, so they can be run easily for which requirements are given in the requirements.txt file. 
 
 ## Conclusion
