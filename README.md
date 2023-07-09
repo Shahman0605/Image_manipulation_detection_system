@@ -23,11 +23,14 @@ To ensure comprehensive evaluation, we have meticulously curated a dataset compr
 ## Results
 Unfortunately, we could only report the results for the model we tested on the dataset. The model achieved an overall accuracy of 87% on the test dataset. Class-wise classification accuracy and the confusion matrix are provided below:
 
-- Authentic: 92% accuracy
-- True Positive Rate (Authentic): 43% accuracy
-- True Negative Rate (Copy-moved): 78% accuracy
-- False Positive Rate (Spliced): 22% accuracy
-- False Negative Rate (Spliced): 57% accuracy
+- Authentic: 92% accuracy 
+
+Classwise-classification metrics: 
+
+- True Positive Rate: 43% accuracy
+- True Negative Rate: 78% accuracy
+- False Positive Rate: 22% accuracy
+- False Negative Rate: 57% accuracy
   
 Confusion Matrix:
 ```
