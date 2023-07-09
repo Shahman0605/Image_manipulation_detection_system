@@ -46,18 +46,26 @@ Confusion Matrix:
 The joblib file for the SVM classifier used in this project is not included in the repository due to its large size. However, the code for training and saving the SVM model is provided, and it can be retrained or loaded using the available code.
 
 ## Implementation
+
 ### Requirements: 
 - Python 3.7
 - PyTorch 1.0+
 - CUDA 10.0+
 
 ./unet/unet-parts.py': it includes detailed implementations of 'U-Net', 'RU-Net' and 'RRU-Net'
+
 'train.py': you can use it to train your model
-using $python train.py$
-'predict.py': you can use it to test 
-But change the image, mask and log directory on the local machine.
+
+Using:
+```bash
+$ python train.py
+```
+'predict.py': you can use it to test the model.
+
+But change the local machine's image, masks, and log directory.
 
 This model is forked from:
+```citation
 @inproceedings{bi2019rru,
   title={RRU-Net: The Ringed Residual U-Net for Image Splicing Forgery Detection},
   author={Bi, Xiuli and Wei, Yang and Xiao, Bin and Li, Weisheng},
@@ -65,8 +73,8 @@ This model is forked from:
   pages={0--0},
   year={2019}
 }
-
-All other files are in an .ipynb format, so they can be run easily for which requirements are given in the requirements.txt file. 
+```
+All other files are in a .ipynb format, so they can be run efficiently for which requirements are given in the requirements.txt file. 
 
 ## Conclusion
 According to the provided metrics, ImageForgeryDetect demonstrates a reliable and effective solution for detecting copy-move and splicing image forgeries. The model achieved an overall accuracy of 92% on the test dataset. These impressive evaluation metrics validate the effectiveness of our developed model in accurately identifying manipulated images.
