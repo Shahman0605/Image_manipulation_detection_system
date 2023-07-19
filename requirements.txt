@@ -3,3 +3,4 @@ opencv-python==4.5.3
 Pillow==8.3.1
 scikit-image==0.18.3
 tensorflow==2.5.0
+Pytorch==2.0.1 without CUDA
