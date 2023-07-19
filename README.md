@@ -1,7 +1,7 @@
 # ImageForgeryDetect - README
 
 ## Overview
-ImageForgeryDetect is an image manipulation detection system developed to address the challenges of copy-move and splicing forgeries. This project aimed to create a robust system that accurately identifies manipulated images using techniques such as deep learning, image processing algorithms, and relevant methodologies.
+ImageForgeryDetect is an image manipulation detection system developed to address the challenges of copy-move and splicing forgeries. This project aimed to create a robust system that accurately identifies manipulated images using deep learning, image processing algorithms, and relevant methodologies.
 
 ## Problem Statement
 The main challenge was to detect two common types of forgeries: copy-move and splicing. Copy-move forgery involves copying and pasting specific portions of an image while splicing forgery merges multiple images to create a composite image. Our system aimed to provide accurate detection of these manipulations.
@@ -9,7 +9,7 @@ The main challenge was to detect two common types of forgeries: copy-move and sp
 ## Approach
 We adopted a multi-model approach to tackle the problem. Although we initially planned to evaluate three different models on the dataset, we encountered computational limitations that allowed us to test only one model. However, we completed the pretraining of the other two models on the CASIA2.0_revised dataset for future evaluation.
 
-The chosen model was a machine-learning architecture that leverages Support Vector Machine (SVM) and supervised learning algorithms. SVM aims to discover the optimal boundary (or hyperplane) between distinct data classes. SVMs are successful in high-dimensional spaces and remain effective until the number of dimensions exceeds the number of samples. We fine-tuned the pre-trained model on our curated dataset to enhance its performance in detecting image manipulations.
+The chosen model was a machine-learning architecture that leverages Support Vector Machine (SVM) and supervised learning algorithms. Our modelled SVM aims to discover the optimal boundary (or hyperplane) between distinct data classes. For this reason, SVMs are successful in high-dimensional spaces and remain effective until the number of dimensions exceeds the number of samples. We subsequently fine-tuned the pre-trained model on our curated dataset to enhance its performance in detecting image manipulations.
 
 ## Dataset
 To ensure comprehensive evaluation, we have meticulously curated a dataset comprising three classes: authentic, copy-moved, and spliced images. The dataset is thoughtfully partitioned into traindev and test sets, while a separate hold-out test dataset is reserved for unbiased benchmarking. Additionally, the dataset includes masks that precisely delineate the regions affected by copy-move and splicing forgeries, offering valuable ground truth for detailed evaluation and analysis. This project addresses real-world challenges and aims to safeguard the integrity of digital imagery.
